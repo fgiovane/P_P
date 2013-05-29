@@ -41,3 +41,11 @@
 	float:right;
 	padding: 0;
 }
+
+.activity-box{
+	background-image:linear-gradient(#EDEDED,#ffffff);
+    border-radius: 6px 6px 6px 6px;
+    margin: 0 0 15px;
+    overflow: hidden;
+    padding: 10px 15px;
+}

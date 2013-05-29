@@ -13,3 +13,9 @@ The Apache2.4 service is running.
 [Fri May 24 12:49:56.725731 2013] [core:notice] [pid 12072:tid 512] AH00094: Command line: 'D:\\installations\\Apache24\\bin\\httpd.exe -d D:/installations/Apache24'
 [Fri May 24 12:49:56.726731 2013] [mpm_winnt:notice] [pid 12072:tid 512] AH00418: Parent: Created child process 41700
 [Fri May 24 12:49:57.035793 2013] [mpm_winnt:notice] [pid 41700:tid 448] AH00354: Child: Starting 64 worker threads.
+[Wed May 29 12:50:11.781800 2013] [core:warn] [pid 15832:tid 500] AH00098: pid file C:/Users/mcurticapean/Documents/GitHub/P_P/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed May 29 12:50:11.784800 2013] [mpm_winnt:notice] [pid 15832:tid 500] AH00455: Apache/2.4.4 (Win32) configured -- resuming normal operations
+[Wed May 29 12:50:11.784800 2013] [mpm_winnt:notice] [pid 15832:tid 500] AH00456: Server built: Feb 23 2013 12:42:00
+[Wed May 29 12:50:11.784800 2013] [core:notice] [pid 15832:tid 500] AH00094: Command line: 'C:\\Users\\mcurticapean\\Documents\\GitHub\\P_P\\Apache24\\bin\\httpd.exe -d C:/Users/mcurticapean/Documents/GitHub/P_P/Apache24'
+[Wed May 29 12:50:11.785800 2013] [mpm_winnt:notice] [pid 15832:tid 500] AH00418: Parent: Created child process 19452
+[Wed May 29 12:50:12.090800 2013] [mpm_winnt:notice] [pid 19452:tid 448] AH00354: Child: Starting 64 worker threads.
