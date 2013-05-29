@@ -1,0 +1,43 @@
+.i-need-help-xsml {
+	background:url(../images/icon/need-help-sml.png) no-repeat;
+	background-size:16px 16px;
+	height:16px;
+	width:16px;
+}
+
+.i-shield-sml {
+	background:url(../images/icon/shield.png) no-repeat;
+	background-size:23px 23px;
+	height:23px;
+	width:23px;
+}
+
+.i-shield-xsml{
+	background:url(../images/icon/shield.png) no-repeat;
+	background-size:16px 16px;
+	height:16px;
+	width:16px;
+}
+
+.clear-padding{
+	padding:0;
+}
+
+.activity-title{
+	padding: 0 0 0 15px;
+
+}
+
+.vf-vip{
+	padding: 4px 2px 2px 2px;
+}
+
+.btn-filter{
+	width: 150px;
+	float:right;
+}
+
+.view-services{
+	float:right;
+	padding: 0;
+}

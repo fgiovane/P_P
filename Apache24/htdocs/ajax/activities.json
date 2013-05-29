@@ -1,0 +1,38 @@
+{
+  "0011" : {
+			"message" : "Set @link to 1 SMS a week",
+			"date" : "Sat 7.03pm",
+			"changed" : "You",
+			"link" : {
+						"title" : "messaging settings",
+						"href" : "/message/01"
+						}
+			},
+  "12554" : {
+			"message" : "New @link item: I work in London",
+			"date" : "02 Nov 2012",
+			"changed" : "You",
+			"link" : {
+						"title" : "profile",
+						"href" : "/profile/01"
+						}
+			},
+  "98545" : {
+			"message" : "Switched off Location @link",
+			"date" : "02 Nov 2012",
+			"changed" : "Agent",
+			"link" : {
+						"title" : "info plug-in",
+						"href" : "/plugin/01"
+						}
+			},
+  "500432" : {
+			"message" : "Really really really @link that requires a long long long long long long long long long description",
+			"date" : "02 Nov 2012",
+			"changed" : "Agent",
+			"link" : {
+						"title" : "long activity",
+						"href" : "/activity/01"
+						}
+			}			
+}
