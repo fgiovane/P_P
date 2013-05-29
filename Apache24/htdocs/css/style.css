@@ -23,9 +23,28 @@
 	padding:0;
 }
 
-.activity-title{
-	padding: 0 0 0 15px;
+.activity-title1{
+	padding: 0 0 0 11px;
+	font: 42px/1.125 VodafoneRegular;
+	color: #e60000
 
+}
+
+.activity-title2{
+	padding: 10px 0 0 8px;
+	font: 26px/1.125 VodafoneRegular;
+	color: #e60000
+
+}
+
+.changes-VIP-text1{
+	padding: 0 0 0 2px;
+	font: 22px/1.125 VodafoneRegular;
+}
+
+.changes-VIP-text2{
+	padding: 0 0 0 2px;
+	font: 1.5em/1.125 VodafoneRegular;
 }
 
 .vf-vip{
@@ -40,4 +59,16 @@
 .view-services{
 	float:right;
 	padding: 0;
+}
+
+.activity-col{
+	float: left;
+
+}
+
+.sml-button-rgt{
+	position:absolute;
+	right:20px;
+	margin-top: 5px;
+	
 }

@@ -1,15 +1,6 @@
-Starting the Apache2.4 service
-The Apache2.4 service is running.
-[mpm_winnt:notice] [pid 23712:tid 512] AH00455: Apache/2.4.4 (Win32) configured -- resuming normal operations
-[Fri May 24 12:08:04.870460 2013] [mpm_winnt:notice] [pid 23712:tid 512] AH00456: Server built: Feb 23 2013 12:42:00
-[Fri May 24 12:08:04.870460 2013] [core:notice] [pid 23712:tid 512] AH00094: Command line: 'D:\\installations\\Apache24\\bin\\httpd.exe -d D:/installations/Apache24'
-[Fri May 24 12:08:04.871461 2013] [mpm_winnt:notice] [pid 23712:tid 512] AH00418: Parent: Created child process 27968
-[Fri May 24 12:08:05.217030 2013] [mpm_winnt:notice] [pid 27968:tid 448] AH00354: Child: Starting 64 worker threads.
-[Fri May 24 12:08:28.894764 2013] [mpm_winnt:notice] [pid 23712:tid 512] AH00422: Parent: Received shutdown signal -- Shutting down the server.
-[Fri May 24 12:08:30.895164 2013] [mpm_winnt:notice] [pid 27968:tid 448] AH00364: Child: All worker threads have exited.
-[Fri May 24 12:08:30.908167 2013] [mpm_winnt:notice] [pid 23712:tid 512] AH00430: Parent: Child process 27968 exited successfully.
-[Fri May 24 12:49:56.725231 2013] [mpm_winnt:notice] [pid 12072:tid 512] AH00455: Apache/2.4.4 (Win32) configured -- resuming normal operations
-[Fri May 24 12:49:56.725731 2013] [mpm_winnt:notice] [pid 12072:tid 512] AH00456: Server built: Feb 23 2013 12:42:00
-[Fri May 24 12:49:56.725731 2013] [core:notice] [pid 12072:tid 512] AH00094: Command line: 'D:\\installations\\Apache24\\bin\\httpd.exe -d D:/installations/Apache24'
-[Fri May 24 12:49:56.726731 2013] [mpm_winnt:notice] [pid 12072:tid 512] AH00418: Parent: Created child process 41700
-[Fri May 24 12:49:57.035793 2013] [mpm_winnt:notice] [pid 41700:tid 448] AH00354: Child: Starting 64 worker threads.
+[Wed May 29 11:39:18.438045 2013] [core:warn] [pid 8212:tid 520] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed May 29 11:39:18.441965 2013] [mpm_winnt:notice] [pid 8212:tid 520] AH00455: Apache/2.4.4 (Win32) configured -- resuming normal operations
+[Wed May 29 11:39:18.441965 2013] [mpm_winnt:notice] [pid 8212:tid 520] AH00456: Server built: Feb 23 2013 12:42:00
+[Wed May 29 11:39:18.441965 2013] [core:notice] [pid 8212:tid 520] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Wed May 29 11:39:18.442895 2013] [mpm_winnt:notice] [pid 8212:tid 520] AH00418: Parent: Created child process 3972
+[Wed May 29 11:39:18.799001 2013] [mpm_winnt:notice] [pid 3972:tid 136] AH00354: Child: Starting 64 worker threads.
