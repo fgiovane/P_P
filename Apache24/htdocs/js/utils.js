@@ -16,8 +16,9 @@ var processActivities = function(){
 		$.each(data, function(key, val) {
 		
 			var itemContent = $('<div/>', {
-				'class':'activity-content',
-				html: val.message})
+				'class':'activity-content row aside-box',
+				'data-activity-id': key,
+				html: '<a href="#" class=""><img src="images/vf-vip.png" alt="Vodafone VIP"></a>' + val.message})
 					.append($('<div/>', {
 						'class' : 'activity-date',
 						html: val.date
@@ -28,19 +29,12 @@ var processActivities = function(){
 					}));
 			
 			
-			var item = $('<li/>', {
-				'class':'activity-item',
-				'data-activity-id': key,
-				html: itemContent});
+			var dummy = $('<li/>', {html: itemContent});
 			
-			items.push($(item).html());
+			items.push(dummy.html());
 		});
- 
-	  $('<ul/>', {
-		'class': 'my-new-list',
-		html: items.join('')
-	  }).appendTo('.content');
-		
+		$('.activity-list').html( items.join(''));
+
 	
 	});
 };

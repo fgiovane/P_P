@@ -61,6 +61,7 @@
 	padding: 0;
 }
 
+<<<<<<< HEAD
 .activity-col{
 	float: left;
 
@@ -71,4 +72,12 @@
 	right:20px;
 	margin-top: 5px;
 	
+=======
+.activity-box{
+	background-image:linear-gradient(#EDEDED,#ffffff);
+    border-radius: 6px 6px 6px 6px;
+    margin: 0 0 15px;
+    overflow: hidden;
+    padding: 10px 15px;
+>>>>>>> 6d3a1126c770cea56d77fe19e5cd30fc6afb2a18
 }
